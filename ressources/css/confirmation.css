@@ -1,0 +1,34 @@
+/* Bandeau vert de succès */
+.banniere-succes {
+    background-color: #d1e7dd;
+    border: 1px solid #a3cfbb;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.banniere-succes .paragraphe {
+    color: #0f5132;
+    font-size: 1.15em;
+    margin: 0;
+    padding: 0;
+}
+
+
+.banniere-succes .texte-merci {
+    font-weight: bold;
+    font-size: 1.25em; 
+    margin-right: 8px; /* Un petit espace avant la suite du texte */
+}
+
+/* Conteneur pour centrer le bouton de retour */
+.actions-confirmation {
+    text-align: center;
+}
+
+.actions-confirmation .btn-envoi {
+    text-decoration: none;
+    display: inline-block;
+}

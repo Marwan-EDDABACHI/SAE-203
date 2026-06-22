@@ -1,0 +1,10 @@
+/* Animation pour les articles */
+.liste-articles .article {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* L'effet au survol */
+.liste-articles .article:hover {
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.625rem 0.9375rem rgba(0, 0, 0, 0.1);
+}

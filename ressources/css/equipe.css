@@ -1,0 +1,59 @@
+
+
+.liste-auteurs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.carte-auteur {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    /* J'ai mis des bords bien arrondis*/
+    border-radius: 1rem; 
+    padding: 1.5rem;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Une petite ombre légère pour faire ressortir la carte*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.avatar-auteur {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 1px solid #d1d5db;
+}
+
+.nom-auteur {
+
+    font-size: 1.25rem; 
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.twitter-auteur {
+    font-size: 0.875rem; 
+    color: #6b7280;
+    text-decoration: none;
+    margin-bottom: 0.25rem;
+}
+
+.twitter-auteur:hover {
+    color: #3b82f6;
+    text-decoration: underline;
+}
+
+.articles-compteur {
+    font-size: 0.875rem;
+    color: #9ca3af;
+    margin-top: 0.5rem;
+}

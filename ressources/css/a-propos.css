@@ -1,0 +1,76 @@
+.liste-ancres {
+    border: 1px solid #03886d;
+    padding: 1rem 3rem 1rem 1rem;
+    background-color: #f9f9f9;
+    width: fit-content;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.liste-ancres li {
+    margin-bottom: 1rem;
+}
+
+.liste-ancres .dernier {
+    margin-bottom: 0;
+}
+
+.liste-ancres a {
+    text-decoration: none;
+    color: #03886d;
+}
+
+.liste-ancres a:hover {
+    color: black;
+}
+
+.img-quebec {
+    margin: 1rem 0;
+}
+
+.liste-projets {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem 1.25rem;
+}
+
+.projet {
+    /* Conversion des 3px et 6px */
+    box-shadow: 0 0.1875rem 0.375rem #00000029;
+    flex: 32%;
+}
+
+.projet img {
+    /* Conversion des 325px */
+    height: 20.3125rem;
+    width: 100%;
+}
+
+.projet .textes {
+    padding: 1rem 3.5rem 4.25rem 1rem;
+}
+
+.projet .titre {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.projet .description {
+    color: #363636;
+    margin-bottom: 0 !important;
+}
+
+.liste-axes {
+    list-style: inherit;
+    list-style-position: inside;
+    margin-top: -1.25rem;
+}
+
+.titre:target::before {
+    font: 70% sans-serif;
+    content: "►";
+    color: #03886d;
+    margin-right: 0.25em;
+}
